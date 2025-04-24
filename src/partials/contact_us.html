@@ -1,66 +1,66 @@
 <section class="contact_us_section">
   <div class="container">
     <h2 class="contact_us_title">Contact Us</h2>
-    <p>
-      Please use the form below to contact us. Enter your name, email, phone,
-      and message and we'll get back to you shortly.
-    </p>
-    <form class="contact_us_form">
-      <div class="form_container">
-        <div>
-          <label for=""></label>
-          <input
-            type="text"
-            name="user-name"
-            id="user-name"
-            placeholder="Name"
-            class="contact-input"
-            required
-          />
-        </div>
+    <div class="contact_us_content">
+      <p class="contact_us_text">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+      <form class="contact_us_form">
+        <div class="form_container">
+          <div>
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              class="contact-input"
+              required
+            />
+          </div>
 
-        <div>
-          <label for=""></label>
-          <input
-            type="email"
-            name="user-email"
-            id="user-email"
-            placeholder="Email"
-            class="contact-input"
-            required
-          />
-        </div>
+          <div>
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              class="contact-input"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </div>
 
-        <div>
-          <label for=""></label>
-          <input
-            type="tel"
-            name="user-phone"
-            id="user-phone"
-            placeholder="+380"
-            class="contact-input"
-            required
-          />
-        </div>
+          <div>
+            <input
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder="+380"
+              class="contact-input"
+              required
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            />
+          </div>
 
-        <div>
-          <label for=""></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            placeholder="Comment"
-            class="contact-input"
-            required
-          ></textarea>
-        </div>
+          <div>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              class="contact-input input-textarea"
+            ></textarea>
+          </div>
 
-        <button type="submit">Send</button>
-        <img
-          src="./img/contact_us.jpg"
-          alt="Clock in cave"
-          srcset="./img/contact_us.jpg 1x, ./img/contact_us@x2.jpg 2x"
-        />
-      </div>
-    </form>
+          <button class="contact-button" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    <img
+      class="contact_us_image"
+      src="./img/contact_us.jpg"
+      alt="Clock in cave"
+      srcset="./img/contact_us.jpg 1x, ./img/contact_us@x2.jpg 2x"
+    />
   </div>
 </section>
