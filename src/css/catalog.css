@@ -101,9 +101,15 @@ body {
     max-width: 768px;
     padding: 0 32px;
   }
+
   .full-catalog-btn {
     display: none;
   }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+
   .catalog-list {
     display: flex;
     flex-wrap: wrap;
