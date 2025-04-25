@@ -1,0 +1,31 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-burger {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-close {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-youtube {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+
