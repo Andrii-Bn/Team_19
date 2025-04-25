@@ -2,6 +2,25 @@
   padding: 60px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .contact_us_section {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact_us_section {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact_us_image_container {
+    display: flex;
+    gap: 40px;
+  }
+}
+
 .contact_us_title {
   font-weight: 600;
   font-size: 32px;
@@ -11,11 +30,33 @@
   margin-bottom: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .contact_us_title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+}
+
 .contact_us_content {
   background-color: #f3f3f3;
   border-radius: 30px;
   padding: 48px 28px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_us_content {
+    padding: 50px 122px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact_us_content {
+    padding: 50px 60px;
+    margin-bottom: 0;
+  }
 }
 
 .contact_us_text {
@@ -25,6 +66,14 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_us_text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
 }
 
 .contact-input {
@@ -38,6 +87,13 @@
   line-height: 1.29;
   color: #0c0c0c;
   margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-input {
+    height: 52px;
+    padding: 16px 0 16px 18px;
+  }
 }
 
 .contact-input:focus,
@@ -54,11 +110,25 @@
   color: #0c0c0c;
 }
 
+@media screen and (min-width: 768px) {
+  .contact-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
 .input-textarea {
   display: block;
   resize: none;
   height: 84px;
   margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-textarea {
+    height: 90px;
+    margin-bottom: 32px;
+  }
 }
 
 .contact-button {
@@ -68,10 +138,38 @@
   background-color: #3350e9;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   color: #fbfbfb;
   border: none;
   margin-bottom: 0;
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact-button:hover {
+  background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-button {
+    width: 160px;
+    height: 52px;
+  }
+}
+
+.img_container {
+  height: 512px;
+}
+
+@media screen and (min-width: 768px) {
+  .img_container {
+    height: 556px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .img_container {
+    min-width: 530px;
+  }
 }
 
 .contact_us_image {
@@ -80,4 +178,17 @@
   object-fit: cover;
   object-position: 45% center;
   border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact_us_image {
+    height: 100%;
+    object-position: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact_us_image {
+    object-position: 45% center;
+  }
 }
