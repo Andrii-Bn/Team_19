@@ -1,12 +1,12 @@
 
 .sale_content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
     .sale_content {
-        flex-direction: row;
-        flex-wrap: wrap;
+       
         width: 704px;
     }
 }
@@ -154,9 +154,7 @@
     margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
-    .sale_text_subtitle {
-
-    }
+    
 }
 .watch_price {
     display: flex;
