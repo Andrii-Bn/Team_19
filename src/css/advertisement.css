@@ -1,12 +1,54 @@
  .advertisement {
+     background: #0c0c0c;
+     position: relative;
      border-radius: 30px;
      width: 335px;
      height: 363px;
+     background-image: url(../img/advertisement-mob.svg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     margin-left: auto;
+     margin-right: auto;
  }
 
+ .advertisement-content {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 28px;
+     padding: 60px 28px;
+ }
 
+ .advertisement-text {
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 1;
+     letter-spacing: -0.02em;
+     color: #fbfbfb;
+     margin-bottom: 7px;
+ }
 
+ .advertisement-text span {
+     color: rgba(251, 251, 251, 0.5);
+ }
 
+ .contact-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid rgba(251, 251, 251, 0.15);
+     border-radius: 16px;
+     min-width: 160px;
+     height: 48px;
+     background-color: inherit;
+     box-sizing: border-box;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.28571;
+     text-align: center;
+     color: #fbfbfb;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
 
  .visually-hidden {
      position: absolute;
@@ -20,38 +62,44 @@
      border: 0;
  }
 
+ .advertisement .contact-button:hover,
+ .advertisement .contact-button:focus {
+     background-color: #fbfbfb;
+     color: #0c0c0c;
+ }
 
  @media screen and (min-width: 768px) {
      .advertisement {
          width: 704px;
          height: 425px;
+         background-image: url(../img/advertisement-tab.svg);
      }
 
+     .advertisement-content {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 80px 64px;
+         gap: 32px;
+     }
 
+     .advertisement-text {
+         font-size: 48px;
+         line-height: 0.91667;
+         margin-bottom: 9px;
+     }
  }
 
-
  @media screen and (min-width: 1280px) {
-
-
-
      .advertisement {
-         background: #0c0c0c;
          width: 1150px;
          height: 298px;
          border-radius: 30px;
          margin: 100px auto;
-         background-image: url(../img/advertisement.jpg);
+         background-image: url(../img/advertisement.svg);
          background-size: cover;
          background-position: center;
          background-repeat: no-repeat;
      }
-
-
-
-
-
-
 
      .advertisement-content {
          display: flex;
@@ -60,7 +108,6 @@
      }
 
      .advertisement-text {
-         font-family: "Gilroy", sans-serif;
          font-weight: 600;
          font-size: 48px;
 
@@ -68,32 +115,15 @@
          letter-spacing: -0.02em;
          color: #fbfbfb;
          max-width: 690px;
+         margin-bottom: 0;
      }
 
-     .advertisement-text span {
-         color: rgba(251, 251, 251, 0.5);
-     }
-
-     .contact-button {
-
-         display: flex;
-         justify-content: center;
-         align-items: center;
-
-         border: 1px solid rgba(251, 251, 251, 0.15);
-         border-radius: 16px;
-         min-width: 160px;
-         height: 48px;
-
+     /* .contact-button {
          background-color: inherit;
-         font-family: "Gilroy", sans-serif;
          font-weight: 500;
          font-size: 14px;
-
          line-height: 1.28571;
          text-align: center;
          color: #fbfbfb;
-
-         box-sizing: border-box;
-     }
+     } */
  }
