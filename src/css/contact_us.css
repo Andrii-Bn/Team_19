@@ -96,6 +96,8 @@
   .contact-input {
     height: 52px;
     padding: 16px 0 16px 18px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
@@ -148,7 +150,8 @@
   transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.contact-button:hover {
+.contact-button:hover,
+.contact-button:focus {
   background-color: #1f3cd4;
 }
 
