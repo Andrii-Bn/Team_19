@@ -1,3 +1,5 @@
+/* Mob */
+
 .container {
     margin-top: 80px;
     padding: 0;
@@ -70,15 +72,11 @@
     color: #0c0c0c;
 }
 
-@media screen and (min-width: 768px) {
-    /* .container {
-        margin: 0;
-        padding: 0;
-    } */
+/* Tab */
 
+@media screen and (min-width: 768px) {
     .advertisement {
         max-width: 704px;
-        /* height: 425px; */
         background-image: url(../img/advertisement-tab.svg);
     }
 
@@ -96,15 +94,11 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
-    /* .container {
-        margin: 0;
-        padding: 0;
-    } */
+/* Deck */
 
+@media screen and (min-width: 1280px) {
     .advertisement {
         max-width: 1150px;
-        /* height: 298px; */
         border-radius: 30px;
         margin: 100px auto;
         background-image: url(../img/advertisement.svg);
@@ -129,13 +123,4 @@
         max-width: 690px;
         margin-bottom: 0;
     }
-
-    /* .contact-button {
-         background-color: inherit;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 1.28571;
-         text-align: center;
-         color: #fbfbfb;
-     } */
 }
