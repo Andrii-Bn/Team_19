@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/Team_19/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Team_19/assets/index-jW1RVJ_7.css">
+    <link rel="stylesheet" crossorigin href="/Team_19/assets/index-BgKiLq4h.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -272,7 +272,77 @@
     </section>
 
       <!-- Loads the specified .html file -->
-      
+      <section class="contact_us_section" id="contact-us">
+  <div class="container">
+    <h2 class="contact_us_title">Contact Us</h2>
+    <div class="contact_us_image_container">
+      <div class="contact_us_content">
+        <p class="contact_us_text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact_us_form">
+          <div class="form_container">
+            <div>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                class="contact-input"
+                required
+              />
+            </div>
+
+            <div>
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                class="contact-input"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              />
+            </div>
+
+            <div>
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                placeholder="+380"
+                class="contact-input"
+                required
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              />
+            </div>
+
+            <div>
+              <textarea
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+                class="contact-input input-textarea"
+              ></textarea>
+            </div>
+
+            <button class="contact-button" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="img_container">
+        <img
+          class="contact_us_image"
+          src="/Team_19/assets/contact_us-DYLcWOnf.jpg"
+          alt="Clock in cave"
+          srcset="/Team_19/assets/contact_us-DYLcWOnf.jpg 1x, /Team_19/assets/contact_us@x2-xc80bann.jpg 2x"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <!-- Loads the specified .html file -->
