@@ -58,9 +58,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     .header .container {
         align-items: center;
-        gap: 230px;
+        gap: 230px;     
     }
     .burger-btn {
         display: none;
