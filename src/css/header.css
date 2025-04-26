@@ -61,6 +61,7 @@
     .header {
         padding-top: 0;
         padding-bottom: 0;
+        width: 100%;
     }
     .header .container {
         align-items: center;
