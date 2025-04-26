@@ -41,13 +41,12 @@
   justify-content: center;
 }
 
+.footer-media-list-icon {
+  fill: #fbfbfb;
+}
 .footer-media-list-icon:hover,
 .footer-media-list-icon:focus {
   fill: #ffffff;
-}
-
-.footer-media-list-icon {
-  fill: #fbfbfb;
 }
 
 .footer-tel {
