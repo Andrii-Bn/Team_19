@@ -1,4 +1,5 @@
 .header {
+    top: 0;
     border-bottom:1px solid rgba(12, 12, 12, 0.1);
     position: fixed;
     background-color:#fbfbfb;
@@ -49,7 +50,7 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        padding: 26px 0;
+        /* padding: 26px 0; */
     }
     .header-logo {
         font-size: 20px;
