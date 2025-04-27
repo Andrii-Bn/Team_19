@@ -262,6 +262,7 @@
     border-radius: 8px;
     padding: 8px 12px;
     height: 32px;
+    max-height: 32px;
     font-weight: 500;
     font-size: 12px;
     line-height: 133%;
