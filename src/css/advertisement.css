@@ -1,5 +1,7 @@
 /* Mob */
-
+.advertisement-wrap {
+  padding: 0;
+}
 .advertisement {
   background: #0c0c0c;
   position: relative;
@@ -9,6 +11,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 60px;
 }
 
 .advertisement-content {
