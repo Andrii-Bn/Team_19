@@ -1,4 +1,7 @@
 /* Mob */
+.advertisement-wrap {
+    padding: 0;
+}
 
 .container {
     margin-top: 80px;
@@ -10,6 +13,7 @@
     position: relative;
     border-radius: 30px;
     max-width: 335px;
+    margin-bottom: 60px;
     background-image: url(../img/advertisement-mob.svg);
     background-size: cover;
     background-position: center;
@@ -77,6 +81,7 @@
 @media screen and (min-width: 768px) {
     .advertisement {
         max-width: 704px;
+        margin-bottom: 80px;
         background-image: url(../img/advertisement-tab.svg);
     }
 
