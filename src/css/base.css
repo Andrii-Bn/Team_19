@@ -3,3 +3,15 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding-bottom: 60px;
+}
+
+section:first-of-type {
+  padding-top: 60px;
+}
