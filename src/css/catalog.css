@@ -58,7 +58,7 @@ body {
   margin-bottom: 8px;
 }
 
-.price {
+.price-catalog {
   font-weight: 400;
   font-size: 14px;
   text-align: left;
@@ -99,6 +99,10 @@ body {
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+
+  .catalog-list {
+    margin-bottom: 0;
   }
 
   .full-catalog-btn {
