@@ -30,10 +30,6 @@
   height: 34px;
 }
 
-.burger-btn:hover,
-.burger-btn:focus {
-  display: none;
-}
 .burger-icon {
   display: block;
   fill: #0c0c0c;
