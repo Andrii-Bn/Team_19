@@ -47,8 +47,9 @@
   width: 335px;
   height: 80px;
   gap: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
+
 .mini-photo {
   width: 80px;
   height: 80px;
@@ -95,6 +96,7 @@
   .sale_photo {
     width: 428px;
     margin-right: 40px;
+    margin-bottom: 0;
   }
 }
 
