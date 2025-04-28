@@ -60,6 +60,14 @@
   }
 }
 
+.input_container {
+  margin-bottom: 18px;
+}
+
+.contact_us_label {
+  display: none;
+}
+
 .contact-input {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
@@ -71,7 +79,6 @@
   font-size: 14px;
   line-height: 1.29;
   color: #0c0c0c;
-  margin-bottom: 18px;
   transition: border-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1),
     outline 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
