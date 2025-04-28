@@ -99,7 +99,6 @@
   .advertisement {
     max-width: 1150px;
     border-radius: 30px;
-    margin: 100px auto;
     background-image: url(../img/advertisement.svg);
     background-size: cover;
     background-position: center;
