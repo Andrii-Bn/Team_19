@@ -47,7 +47,7 @@
   width: 335px;
   height: 80px;
   gap: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .mini-photo {
   width: 80px;
@@ -72,6 +72,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale_mini-photo {
+    margin-bottom: 0px;
+  }
 }
 
 .sale_photo {
