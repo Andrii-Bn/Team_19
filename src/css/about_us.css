@@ -42,12 +42,13 @@
   text-align: center;
   color: #fbfbfb;
   border-radius: 16px;
-  width: 160px;
-  height: 48px;
+  padding: 15px 38px;
   background: #3350e9;
   text-align: center;
   border: none;
-  transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: inline-block;
+  text-align: center;
 }
 
 .about-btn:hover,

@@ -132,8 +132,8 @@
     opacity: 0.8;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .soc-media-icon:hover,
-  .soc-media-icon:focus {
+  .soc-media-link:hover .soc-media-icon,
+  .soc-media-link:focus .soc-media-icon {
     fill: #3350e9;
   }
 }
