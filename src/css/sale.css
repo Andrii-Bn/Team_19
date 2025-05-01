@@ -5,12 +5,12 @@
 }
 @media screen and (min-width: 768px) {
   .sale_content {
-    width: 704px;
+    max-width: 704px;
   }
 }
 @media screen and (min-width: 1280px) {
   .sale_content {
-    width: 1280px;
+    max-width: 1280px;
   }
 }
 
@@ -243,7 +243,7 @@
 @media screen and (min-width: 1280px) {
   .sale_text_p {
     margin-bottom: 26px;
-    /* margin-left: 22px; */
+    margin-left: 22px;
   }
 }
 
